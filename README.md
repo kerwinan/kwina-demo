@@ -1,10 +1,11 @@
 # kwina-demo
-个人golang项目模板示例
+个人golang项目模板示例。
 
 ### TODO
 
 1. 解析 config文件改善，解析指定目录下的所有yaml文件
 2. 自己封装一套rpc服务注册与发现工具包，register, call, logout。通过idl定义服务并进行服务方法注册，不使用pb定义
+3. 通过项目模板快速构建新项目
 
 ### 项目结构介绍
 
