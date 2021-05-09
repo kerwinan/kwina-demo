@@ -1,0 +1,24 @@
+hello_service_opt:
+  # 版本号 1.0.0
+  version: 1.0.0
+  # 服务名称, 格式为{业务线}.{服务名}
+  service: demo.HelloServer
+  # 程序所在节点
+  node_id: 1
+  # 监听端口
+  port: 31001
+  # etcd集群配置
+  etcd_host:
+    - 192.168.0.103:2379
+  # etcd用户名
+  username:
+  # etcd密码
+  password:
+  # 网卡名称, 默认为eth0
+  network_interface: eth0
+  # 是否使用SSL
+  use_ssl: false
+  # 证书地址
+  cert_file: ./config/sslkey/server.crt
+  # 证书秘钥地址
+  key_file: ./config/sslkey/server.key

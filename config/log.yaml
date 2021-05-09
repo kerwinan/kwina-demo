@@ -1,0 +1,23 @@
+# Level is the minimum log level
+# -1 is debug level,
+# 0 is info level,
+# 1 is warn level,
+# 2 is error level
+level: -1
+
+# keys used for each log entry. If any key is empty, that portion
+# of the entry is omitted.
+message_key: msg
+level_key: level
+time_key: time
+caller_key: caller
+
+# encoding of log, just is json or console
+encoding: json
+# Filename is the file to write logs to.  Backup log files will be retained
+# in the same directory.
+file_name: ../logs/test.log
+# LocalTime determines if the time used for formatting the timestamps in
+# backup files is the computer's local time.  The default is to use UTC
+# time.
+local_time: true

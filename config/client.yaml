@@ -1,0 +1,14 @@
+rpc_client_opt:
+  # 客户端名称, 格式为{业务线}.{程序名}
+  client: demo.rpc-client
+  # 程序所在节点
+  node_id: 1
+  # etcd集群配置
+  etcd_host:
+    - http://192.168.0.103:2379
+  # etcd用户名
+  username:
+  # etcd密码
+  password:
+  # 网卡名称, 默认为eth0
+  network_interface: eth0
